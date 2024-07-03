@@ -1,0 +1,36 @@
+h4, h2, p{
+    text-align: center;
+    font-family: Verdana;
+}
+
+h1{
+    font-family: Georgia;
+    text-align: center;
+}
+
+img{ 
+    width: 250px;
+    height: 250px;
+}
+
+#Babs{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+
+#Flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Flex > div{
+    width: 250px;
+    height: 250px;
+    margin: 80px;
+    margin-right: auto;
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+    grid-template-columns: 130px 130px auto;
+}
